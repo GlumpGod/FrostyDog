@@ -2,6 +2,24 @@
     background-color: lightblue;
 }
 
+body {
+    margin: 0;
+}
+
+#navbar {
+    display : flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.navlinks {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
 #slideshow {
     padding: 50px;
     display: flex;
@@ -9,22 +27,42 @@
 }
 
 .Slides {
-    width: 150px;
-    height: 150px;
+    width: 600px;
+    height: 450px;
 }
 
 #about {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 #services {
     padding : 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 #pricing {
     padding : 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact {
     padding : 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    width: 1000px;
+    align-self: center;
 }
