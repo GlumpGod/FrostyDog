@@ -1,0 +1,30 @@
+* {
+    background-color: lightblue;
+}
+
+#slideshow {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Slides {
+    width: 150px;
+    height: 150px;
+}
+
+#about {
+    padding: 50px;
+}
+
+#services {
+    padding : 50px;
+}
+
+#pricing {
+    padding : 50px;
+}
+
+#contact {
+    padding : 50px;
+}
