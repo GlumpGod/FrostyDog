@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* Nav bar */
+
 #navbar {
     display : flex;
     gap: 20px;
@@ -20,6 +22,8 @@ body {
     font-size: 26px;
 }
 
+/* Slideshow on home page */
+
 #slideshow {
     padding: 50px;
     display: flex;
@@ -31,11 +35,15 @@ body {
     height: 450px;
 }
 
+/* About section of home page */
+
 #about {
     padding: 50px;
     display: flex;
     flex-direction: column;
 }
+
+/* Services page */
 
 #services {
     padding : 50px;
@@ -43,17 +51,31 @@ body {
     flex-direction: column;
 }
 
+.serviceheaders {
+    font-size: 42px;
+}
+
+.servicepara {
+    font-size: 35px;
+}
+
+/* Prcing page */
+
 #pricing {
     padding : 50px;
     display: flex;
     flex-direction: column;
 }
 
+/* Contact area on bottom of every page */
+
 #contact {
     padding : 50px;
     display: flex;
     flex-direction: column;
 }
+
+/* General text */
 
 h1 {
     text-align: center;
@@ -62,7 +84,7 @@ h1 {
 
 p {
     text-align: center;
-    font-size: 25px;
-    width: 1000px;
+    font-size: 30px;
+    width: 900px;
     align-self: center;
 }
